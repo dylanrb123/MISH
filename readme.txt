@@ -30,5 +30,5 @@ If not, the system assumes it was an external command and forks, creating a
 new process, and the child process calls execvp on the command. 
 I used a top-down approach to the design of the program, starting with the 
 user input and basic control loop, adding funtionality piece-by-piece (saving 
-the annoying parts forlast...)
+the annoying parts for last...)
 
